@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="incoming" val="32"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="0"/>
+      <a name="bit9" val="0"/>
+      <a name="bit10" val="0"/>
+      <a name="bit11" val="0"/>
+      <a name="bit12" val="0"/>
+      <a name="bit13" val="0"/>
+      <a name="bit14" val="0"/>
+      <a name="bit15" val="0"/>
+      <a name="bit16" val="1"/>
+      <a name="bit17" val="1"/>
+      <a name="bit18" val="1"/>
+      <a name="bit19" val="1"/>
+      <a name="bit20" val="1"/>
+      <a name="bit21" val="1"/>
+      <a name="bit22" val="1"/>
+      <a name="bit23" val="1"/>
+      <a name="bit24" val="1"/>
+      <a name="bit25" val="1"/>
+      <a name="bit26" val="1"/>
+      <a name="bit27" val="1"/>
+      <a name="bit28" val="1"/>
+      <a name="bit29" val="1"/>
+      <a name="bit30" val="1"/>
+      <a name="bit31" val="1"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <polygon points="13,45 27,50 13,55" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="131" y="47">Read</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="135" y="21">m_wr</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="89" y="91">Data</text>
+      <polygon points="64,14 76,14 70,27" stroke="#000000"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="131" y="60">data</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="53" y="58">data</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="53" y="45">Write</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="64" y="144">Address</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="89" y="104">memory</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="48" y="21">m_rd</text>
+      <polygon points="13,135 27,140 13,145" stroke="#000000"/>
+      <polygon points="104,14 116,14 110,27" stroke="#000000"/>
+      <rect fill="none" height="130" stroke="#000000" stroke-width="2" width="121" x="29" y="30"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="41" y="83">clk</text>
+      <circ-port height="8" pin="170,70" width="8" x="16" y="46"/>
+      <circ-port height="8" pin="170,150" width="8" x="16" y="136"/>
+      <circ-port height="8" pin="650,190" width="8" x="66" y="16"/>
+      <circ-port height="8" pin="170,280" width="8" x="106" y="16"/>
+      <circ-port height="10" pin="790,150" width="10" x="145" y="45"/>
+      <circ-port height="8" pin="170,240" width="8" x="26" y="76"/>
+      <circ-anchor facing="east" height="6" width="6" x="147" y="47"/>
+    </appear>
+    <wire from="(170,240)" to="(490,240)"/>
+    <wire from="(740,150)" to="(790,150)"/>
+    <wire from="(170,220)" to="(230,220)"/>
+    <wire from="(370,160)" to="(420,160)"/>
+    <wire from="(650,160)" to="(710,160)"/>
+    <wire from="(510,200)" to="(510,280)"/>
+    <wire from="(650,80)" to="(650,160)"/>
+    <wire from="(170,280)" to="(210,280)"/>
+    <wire from="(360,170)" to="(360,200)"/>
+    <wire from="(300,160)" to="(340,160)"/>
+    <wire from="(170,70)" to="(590,70)"/>
+    <wire from="(720,170)" to="(720,190)"/>
+    <wire from="(230,170)" to="(260,170)"/>
+    <wire from="(510,280)" to="(600,280)"/>
+    <wire from="(170,150)" to="(260,150)"/>
+    <wire from="(330,200)" to="(360,200)"/>
+    <wire from="(620,80)" to="(650,80)"/>
+    <wire from="(560,160)" to="(650,160)"/>
+    <wire from="(490,200)" to="(490,240)"/>
+    <wire from="(230,170)" to="(230,220)"/>
+    <wire from="(240,280)" to="(510,280)"/>
+    <wire from="(650,190)" to="(720,190)"/>
+    <wire from="(600,100)" to="(600,280)"/>
+    <comp lib="1" loc="(240,280)" name="NOT Gate"/>
+    <comp lib="0" loc="(170,280)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="m_wr"/>
+    </comp>
+    <comp lib="0" loc="(170,150)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="wa"/>
+    </comp>
+    <comp lib="0" loc="(330,200)" name="Constant">
+      <a name="width" val="2"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(170,220)" name="Constant">
+      <a name="width" val="32"/>
+      <a name="value" val="0x4"/>
+    </comp>
+    <comp lib="0" loc="(790,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(370,160)" name="BitSelector">
+      <a name="width" val="32"/>
+      <a name="group" val="8"/>
+    </comp>
+    <comp lib="2" loc="(740,150)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(650,190)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="m_rd"/>
+    </comp>
+    <comp lib="2" loc="(620,80)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="4" loc="(560,160)" name="RAM">
+      <a name="dataWidth" val="32"/>
+    </comp>
+    <comp lib="0" loc="(170,70)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="wd"/>
+    </comp>
+    <comp lib="0" loc="(170,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="clk"/>
+    </comp>
+    <comp lib="3" loc="(300,160)" name="Divider">
+      <a name="width" val="32"/>
+    </comp>
+  </circuit>
+</project>
