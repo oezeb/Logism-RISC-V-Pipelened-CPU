@@ -112,88 +112,88 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="41" y="83">clk</text>
       <circ-port height="8" pin="170,70" width="8" x="16" y="46"/>
       <circ-port height="8" pin="170,150" width="8" x="16" y="136"/>
-      <circ-port height="8" pin="650,190" width="8" x="66" y="16"/>
+      <circ-port height="8" pin="170,320" width="8" x="66" y="16"/>
       <circ-port height="8" pin="170,280" width="8" x="106" y="16"/>
-      <circ-port height="10" pin="790,150" width="10" x="145" y="45"/>
+      <circ-port height="10" pin="610,150" width="10" x="145" y="45"/>
       <circ-port height="8" pin="170,240" width="8" x="26" y="76"/>
       <circ-anchor facing="east" height="6" width="6" x="147" y="47"/>
     </appear>
-    <wire from="(170,240)" to="(490,240)"/>
-    <wire from="(740,150)" to="(790,150)"/>
-    <wire from="(170,220)" to="(230,220)"/>
-    <wire from="(370,160)" to="(420,160)"/>
-    <wire from="(650,160)" to="(710,160)"/>
-    <wire from="(510,200)" to="(510,280)"/>
-    <wire from="(650,80)" to="(650,160)"/>
-    <wire from="(170,280)" to="(210,280)"/>
-    <wire from="(360,170)" to="(360,200)"/>
-    <wire from="(300,160)" to="(340,160)"/>
-    <wire from="(170,70)" to="(590,70)"/>
-    <wire from="(720,170)" to="(720,190)"/>
-    <wire from="(230,170)" to="(260,170)"/>
-    <wire from="(510,280)" to="(600,280)"/>
-    <wire from="(170,150)" to="(260,150)"/>
-    <wire from="(330,200)" to="(360,200)"/>
-    <wire from="(620,80)" to="(650,80)"/>
-    <wire from="(560,160)" to="(650,160)"/>
-    <wire from="(490,200)" to="(490,240)"/>
-    <wire from="(230,170)" to="(230,220)"/>
-    <wire from="(240,280)" to="(510,280)"/>
-    <wire from="(650,190)" to="(720,190)"/>
-    <wire from="(600,100)" to="(600,280)"/>
-    <comp lib="1" loc="(240,280)" name="NOT Gate"/>
-    <comp lib="0" loc="(170,280)" name="Pin">
+    <wire from="(470,160)" to="(530,160)"/>
+    <wire from="(170,70)" to="(480,70)"/>
+    <wire from="(170,150)" to="(220,150)"/>
+    <wire from="(300,170)" to="(300,180)"/>
+    <wire from="(420,200)" to="(420,280)"/>
+    <wire from="(530,80)" to="(530,160)"/>
+    <wire from="(170,240)" to="(400,240)"/>
+    <wire from="(560,170)" to="(560,320)"/>
+    <wire from="(190,170)" to="(220,170)"/>
+    <wire from="(530,160)" to="(550,160)"/>
+    <wire from="(260,160)" to="(280,160)"/>
+    <wire from="(310,160)" to="(330,160)"/>
+    <wire from="(580,150)" to="(610,150)"/>
+    <wire from="(510,80)" to="(530,80)"/>
+    <wire from="(170,220)" to="(190,220)"/>
+    <wire from="(400,200)" to="(400,240)"/>
+    <wire from="(170,280)" to="(190,280)"/>
+    <wire from="(190,170)" to="(190,220)"/>
+    <wire from="(490,100)" to="(490,280)"/>
+    <wire from="(170,320)" to="(560,320)"/>
+    <wire from="(220,280)" to="(420,280)"/>
+    <wire from="(420,280)" to="(490,280)"/>
+    <comp lib="0" loc="(170,320)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="m_wr"/>
-    </comp>
-    <comp lib="0" loc="(170,150)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="wa"/>
-    </comp>
-    <comp lib="0" loc="(330,200)" name="Constant">
-      <a name="width" val="2"/>
-      <a name="value" val="0x0"/>
+      <a name="label" val="m_rd"/>
     </comp>
     <comp lib="0" loc="(170,220)" name="Constant">
       <a name="width" val="32"/>
       <a name="value" val="0x4"/>
     </comp>
-    <comp lib="0" loc="(790,150)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="32"/>
-      <a name="label" val="out"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="2" loc="(370,160)" name="BitSelector">
-      <a name="width" val="32"/>
-      <a name="group" val="8"/>
-    </comp>
-    <comp lib="2" loc="(740,150)" name="Multiplexer">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(650,190)" name="Pin">
+    <comp lib="0" loc="(170,280)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="m_rd"/>
+      <a name="label" val="m_wr"/>
     </comp>
-    <comp lib="2" loc="(620,80)" name="Multiplexer">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="4" loc="(560,160)" name="RAM">
-      <a name="dataWidth" val="32"/>
+    <comp lib="0" loc="(300,180)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="width" val="2"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(170,70)" name="Pin">
       <a name="width" val="32"/>
       <a name="tristate" val="false"/>
       <a name="label" val="wd"/>
     </comp>
+    <comp lib="2" loc="(580,150)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(170,240)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="clk"/>
     </comp>
-    <comp lib="3" loc="(300,160)" name="Divider">
+    <comp lib="4" loc="(470,160)" name="RAM">
+      <a name="dataWidth" val="32"/>
+    </comp>
+    <comp lib="0" loc="(170,150)" name="Pin">
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="wa"/>
+    </comp>
+    <comp lib="3" loc="(260,160)" name="Divider">
       <a name="width" val="32"/>
     </comp>
+    <comp lib="2" loc="(510,80)" name="Multiplexer">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(610,150)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="label" val="out"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(310,160)" name="BitSelector">
+      <a name="width" val="32"/>
+      <a name="group" val="8"/>
+    </comp>
+    <comp lib="1" loc="(220,280)" name="NOT Gate"/>
   </circuit>
 </project>

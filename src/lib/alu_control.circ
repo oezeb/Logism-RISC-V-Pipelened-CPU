@@ -103,69 +103,57 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <ellipse cx="90.0" cy="70.0" fill="none" rx="30.0" ry="40.0" stroke="#2396ff" stroke-width="2"/>
       <polygon points="44,65 58,70 44,75" stroke="#000000"/>
       <polygon points="84,14 96,14 90,27" stroke="#000000"/>
-      <circ-port height="8" pin="100,50" width="8" x="86" y="16"/>
-      <circ-port height="8" pin="110,140" width="8" x="46" y="66"/>
-      <circ-port height="10" pin="600,260" width="10" x="115" y="65"/>
+      <circ-port height="8" pin="110,30" width="8" x="86" y="16"/>
+      <circ-port height="8" pin="110,100" width="8" x="46" y="66"/>
+      <circ-port height="10" pin="600,220" width="10" x="115" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="117" y="67"/>
     </appear>
-    <wire from="(170,140)" to="(230,140)"/>
-    <wire from="(100,50)" to="(540,50)"/>
-    <wire from="(170,190)" to="(220,190)"/>
-    <wire from="(510,230)" to="(510,240)"/>
-    <wire from="(210,270)" to="(260,270)"/>
-    <wire from="(560,260)" to="(600,260)"/>
-    <wire from="(360,260)" to="(360,280)"/>
-    <wire from="(350,200)" to="(350,220)"/>
-    <wire from="(510,250)" to="(510,270)"/>
-    <wire from="(170,130)" to="(400,130)"/>
-    <wire from="(110,140)" to="(150,140)"/>
-    <wire from="(420,260)" to="(520,260)"/>
-    <wire from="(180,210)" to="(220,210)"/>
-    <wire from="(230,140)" to="(270,140)"/>
-    <wire from="(360,290)" to="(360,320)"/>
-    <wire from="(270,140)" to="(310,140)"/>
-    <wire from="(400,130)" to="(400,220)"/>
-    <wire from="(250,200)" to="(350,200)"/>
-    <wire from="(270,140)" to="(270,240)"/>
-    <wire from="(180,270)" to="(210,270)"/>
-    <wire from="(230,250)" to="(260,250)"/>
-    <wire from="(310,140)" to="(310,300)"/>
-    <wire from="(210,330)" to="(300,330)"/>
-    <wire from="(270,310)" to="(300,310)"/>
-    <wire from="(330,320)" to="(360,320)"/>
-    <wire from="(350,220)" to="(380,220)"/>
-    <wire from="(360,290)" to="(380,290)"/>
-    <wire from="(360,280)" to="(380,280)"/>
-    <wire from="(490,250)" to="(510,250)"/>
-    <wire from="(230,140)" to="(230,180)"/>
-    <wire from="(490,230)" to="(510,230)"/>
-    <wire from="(510,270)" to="(520,270)"/>
-    <wire from="(510,250)" to="(520,250)"/>
-    <wire from="(510,240)" to="(520,240)"/>
-    <wire from="(170,210)" to="(180,210)"/>
-    <wire from="(540,50)" to="(540,240)"/>
-    <wire from="(290,260)" to="(360,260)"/>
-    <wire from="(180,210)" to="(180,270)"/>
-    <wire from="(210,270)" to="(210,330)"/>
-    <comp lib="0" loc="(110,140)" name="Pin">
-      <a name="width" val="32"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="instr"/>
+    <wire from="(170,100)" to="(230,100)"/>
+    <wire from="(170,150)" to="(220,150)"/>
+    <wire from="(510,190)" to="(510,200)"/>
+    <wire from="(210,230)" to="(260,230)"/>
+    <wire from="(560,220)" to="(600,220)"/>
+    <wire from="(360,220)" to="(360,240)"/>
+    <wire from="(350,160)" to="(350,180)"/>
+    <wire from="(510,210)" to="(510,230)"/>
+    <wire from="(110,30)" to="(540,30)"/>
+    <wire from="(170,90)" to="(400,90)"/>
+    <wire from="(110,100)" to="(150,100)"/>
+    <wire from="(420,220)" to="(520,220)"/>
+    <wire from="(180,170)" to="(220,170)"/>
+    <wire from="(230,100)" to="(270,100)"/>
+    <wire from="(360,250)" to="(360,280)"/>
+    <wire from="(270,100)" to="(310,100)"/>
+    <wire from="(400,90)" to="(400,180)"/>
+    <wire from="(250,160)" to="(350,160)"/>
+    <wire from="(270,100)" to="(270,200)"/>
+    <wire from="(180,230)" to="(210,230)"/>
+    <wire from="(230,210)" to="(260,210)"/>
+    <wire from="(540,30)" to="(540,200)"/>
+    <wire from="(310,100)" to="(310,260)"/>
+    <wire from="(210,290)" to="(300,290)"/>
+    <wire from="(270,270)" to="(300,270)"/>
+    <wire from="(330,280)" to="(360,280)"/>
+    <wire from="(350,180)" to="(380,180)"/>
+    <wire from="(360,250)" to="(380,250)"/>
+    <wire from="(360,240)" to="(380,240)"/>
+    <wire from="(490,210)" to="(510,210)"/>
+    <wire from="(230,100)" to="(230,140)"/>
+    <wire from="(490,190)" to="(510,190)"/>
+    <wire from="(510,230)" to="(520,230)"/>
+    <wire from="(510,210)" to="(520,210)"/>
+    <wire from="(510,200)" to="(520,200)"/>
+    <wire from="(170,170)" to="(180,170)"/>
+    <wire from="(290,220)" to="(360,220)"/>
+    <wire from="(180,170)" to="(180,230)"/>
+    <wire from="(210,230)" to="(210,290)"/>
+    <comp lib="6" loc="(456,211)" name="Text">
+      <a name="text" val="SUB"/>
     </comp>
-    <comp lib="6" loc="(197,255)" name="Text">
-      <a name="text" val="OR"/>
+    <comp lib="6" loc="(175,82)" name="Text">
+      <a name="text" val="funct3"/>
     </comp>
-    <comp lib="0" loc="(600,260)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="3"/>
-      <a name="label" val="op"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(230,250)" name="Constant">
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(150,140)" name="Splitter">
+    <comp lib="0" loc="(150,100)" name="Splitter">
       <a name="incoming" val="32"/>
       <a name="appear" val="center"/>
       <a name="bit0" val="none"/>
@@ -201,73 +189,85 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit30" val="none"/>
       <a name="bit31" val="none"/>
     </comp>
-    <comp lib="6" loc="(456,251)" name="Text">
-      <a name="text" val="SUB"/>
-    </comp>
-    <comp lib="0" loc="(270,310)" name="Constant">
+    <comp lib="0" loc="(490,210)" name="Constant">
       <a name="width" val="3"/>
-      <a name="value" val="0x0"/>
+      <a name="value" val="0x6"/>
     </comp>
-    <comp lib="2" loc="(420,260)" name="Multiplexer">
+    <comp lib="0" loc="(600,220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="3"/>
+      <a name="label" val="op"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="2" loc="(250,160)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="6" loc="(178,116)" name="Text">
+      <a name="text" val="funct7[5]"/>
+    </comp>
+    <comp lib="0" loc="(170,150)" name="Constant">
+      <a name="width" val="3"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="2" loc="(330,280)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(490,190)" name="Constant">
+      <a name="width" val="3"/>
+      <a name="value" val="0x2"/>
+    </comp>
+    <comp lib="6" loc="(135,154)" name="Text">
+      <a name="text" val="ADD"/>
+    </comp>
+    <comp lib="2" loc="(290,220)" name="Multiplexer">
+      <a name="selloc" val="tr"/>
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="2" loc="(420,220)" name="Multiplexer">
       <a name="selloc" val="tr"/>
       <a name="select" val="3"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="2" loc="(330,320)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="width" val="3"/>
+    <comp lib="6" loc="(197,215)" name="Text">
+      <a name="text" val="OR"/>
     </comp>
-    <comp lib="6" loc="(135,194)" name="Text">
+    <comp lib="0" loc="(270,270)" name="Constant">
+      <a name="width" val="3"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="6" loc="(455,194)" name="Text">
       <a name="text" val="ADD"/>
     </comp>
-    <comp lib="2" loc="(250,200)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(490,250)" name="Constant">
+    <comp lib="0" loc="(170,170)" name="Constant">
       <a name="width" val="3"/>
       <a name="value" val="0x6"/>
     </comp>
-    <comp lib="0" loc="(170,210)" name="Constant">
-      <a name="width" val="3"/>
-      <a name="value" val="0x6"/>
-    </comp>
-    <comp lib="0" loc="(100,50)" name="Pin">
-      <a name="width" val="2"/>
+    <comp lib="0" loc="(110,100)" name="Pin">
+      <a name="width" val="32"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="ALU op"/>
+      <a name="label" val="instr"/>
     </comp>
-    <comp lib="0" loc="(170,190)" name="Constant">
-      <a name="width" val="3"/>
-      <a name="value" val="0x2"/>
-    </comp>
-    <comp lib="0" loc="(490,230)" name="Constant">
-      <a name="width" val="3"/>
-      <a name="value" val="0x2"/>
-    </comp>
-    <comp lib="6" loc="(178,156)" name="Text">
-      <a name="text" val="funct7[5]"/>
-    </comp>
-    <comp lib="6" loc="(136,211)" name="Text">
+    <comp lib="6" loc="(136,171)" name="Text">
       <a name="text" val="SUB"/>
     </comp>
-    <comp lib="2" loc="(290,260)" name="Multiplexer">
-      <a name="selloc" val="tr"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="6" loc="(236,315)" name="Text">
-      <a name="text" val="AND"/>
-    </comp>
-    <comp lib="6" loc="(175,122)" name="Text">
-      <a name="text" val="funct3"/>
-    </comp>
-    <comp lib="2" loc="(560,260)" name="Multiplexer">
+    <comp lib="2" loc="(560,220)" name="Multiplexer">
       <a name="selloc" val="tr"/>
       <a name="select" val="2"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="6" loc="(455,234)" name="Text">
-      <a name="text" val="ADD"/>
+    <comp lib="6" loc="(236,275)" name="Text">
+      <a name="text" val="AND"/>
+    </comp>
+    <comp lib="0" loc="(230,210)" name="Constant">
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(110,30)" name="Pin">
+      <a name="width" val="2"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="ALU op"/>
     </comp>
   </circuit>
 </project>
